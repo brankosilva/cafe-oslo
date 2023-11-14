@@ -120,6 +120,11 @@ ul{
     margin: 0px 2px;
     font-size: 10px;
     display: block;
+    transition: .3s;
+}
+
+.navegacion a:hover {
+    text-decoration: underline;
 }
 
 .navegacion li{
@@ -229,6 +234,13 @@ ul{
     border: 3px solid #F5f0ed;
     padding: 10px 15px;
     font-size: 16px;
+    transition: .3s;
+}
+
+.boton_productos:hover {
+    color: #d03b40;
+    border: 3px solid #d1cdca;
+    transition: .3s;
 }
 
 /* Productos ---------------------------------------------------------------- */
@@ -376,7 +388,7 @@ ul{
     font-weight: 800;
 }
 
-/* unicacion ---------------------------------------------------------------- */
+/* ubicacion ---------------------------------------------------------------- */
 .caja6{
     background-color: #d03b40;
     min-height: 300px;
@@ -398,6 +410,11 @@ ul{
 .direccion{
     color: #ded6c0;
     text-align: center;
+    transition: .3s;
+}
+
+.direccion:hover {
+    color:#c9c3b4;
 }
 
 .footer{
